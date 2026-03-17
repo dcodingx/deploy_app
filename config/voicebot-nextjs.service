@@ -1,0 +1,22 @@
+[Unit]
+Description=Voicebot Next.js Frontend
+Documentation=https://github.com/dcodingx/APP_NEC
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__SERVICE_USER__
+WorkingDirectory=__FRONTEND_DIR__
+Environment=NODE_ENV=production
+Environment=PORT=3000
+EnvironmentFile=__DEPLOY_DIR__/config/client.env
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=voicebot-nextjs
+
+[Install]
+WantedBy=multi-user.target
