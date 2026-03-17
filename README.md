@@ -66,7 +66,7 @@ TWILIO_ACCOUNT_SID=ACxxx...
 TWILIO_AUTH_TOKEN=xxx...
 
 # Public hostname for Twilio TwiML callbacks
-BASE_URL=ai-server.dcodingx.in
+BASE_URL=ai-server-nexs.dcodingx.in
 ```
 
 ## Services After Setup

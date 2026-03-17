@@ -3,7 +3,7 @@
 # Run this on the JUMP SERVER to configure Nginx reverse proxy
 #
 # Usage:
-#   sudo bash setup_jump_server.sh --domain ai-server.dcodingx.in \
+#   sudo bash setup_jump_server.sh --domain ai-server-nexs.dcodingx.in \
 #                                  --app-ip  192.168.1.100
 # =============================================================================
 
